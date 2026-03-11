@@ -1,6 +1,8 @@
 {
+  "$schema": "https://railway.com/railway.schema.json",
   "build": {
-    "builder": "python"
+    "builder": "RAILPACK",
+    "buildCommand": "pip install -r requirements.txt"
   },
   "deploy": {
     "numInstances": 1,
